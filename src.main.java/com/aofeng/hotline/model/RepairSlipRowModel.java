@@ -260,6 +260,8 @@ public class RepairSlipRowModel {
 			@Override
 			public void Invoke(android.view.View arg0, Object... arg1) {
 				
+				setMute();//µ¥Ìõ¾²Òô
+				
 				Thread th = new Thread(new Runnable() {
 					@Override
 					public void run() {
