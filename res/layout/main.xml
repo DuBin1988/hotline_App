@@ -36,7 +36,8 @@
        		    android:layout_marginLeft="100dp"
        		    android:layout_marginTop="10dp"
        		    android:text="退出服务"
-       		    android:textColor="#FF0000" />
+       		    android:textColor="#FF0000"
+       		    binding:onClick="exitserver" />
             
         </LinearLayout>
 

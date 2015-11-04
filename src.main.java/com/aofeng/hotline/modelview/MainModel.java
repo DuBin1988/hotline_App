@@ -154,6 +154,18 @@ public class MainModel {
 		}
 	};
 	
+	//ÍË³ö
+	public Command exitserver = new Command(){
+			public void Invoke(View view, Object... args) {
+				mContext.service.stop();
+				Intent startMaIn= new Intent(Intent.ACTION_MAIN);
+				startMaIn.addCategory(Intent.CATEGORY_HOME);
+				startMaIn.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				mContext.startActivity(startMaIn);
+				System.exit(0);
+			}
+	};
+	
 
 	public void fillItem() {
 		//if the server is still waiting to be bound

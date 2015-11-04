@@ -56,13 +56,13 @@ public class MainActivity extends Activity{
 	        	}
 	        });
 		}
-		exitserver =(Button)findViewById(R.id.exitserver);
-		exitserver.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				exitserver();
-			}
-		});
+//		exitserver =(Button)findViewById(R.id.exitserver);
+//		exitserver.setOnClickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				exitserver();
+//			}
+//		});
 	}
 
 	@Override
